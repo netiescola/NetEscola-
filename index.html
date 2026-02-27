@@ -1,0 +1,70 @@
+                                                                                        index.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetEscola</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">NetEscola</h1>
+        </div>
+
+        <div class="welcome-box">
+            <p class="welcome-text">
+                Olá,<br>
+                Seja bem-vindo à plataforma de conteúdos didáticos da rede pública estadual de ensino!<br>
+                Aqui você encontra videoaulas, materiais, atividades e listas de exercícios produzidas pelos professores da Secretaria de Estado de Educação. Agora ficou muito mais fácil aprender pela Internet! V>
+            </p>
+        </div>
+
+        <h2 class="access-title">Acessar</h2>
+
+        <div class="access-message">
+            <p>O sistema só permite acesso a usuários da rede estadual.</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" placeholder="Seu usuário da NetEscola" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Sua senha da NetEscola" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail SEDUC</label>
+                <input type="email" id="email" placeholder="seu@aluno.educa.go.gov.br" required>
+                <small class="email-hint">Use @aluno.educa.go.gov.br</small>
+            </div>
+
+            <div class="form-group">
+                <label for="emailSenha">Senha do E-mail</label>
+                <input type="password" id="emailSenha" placeholder="Senha do seu e-mail SEDUC" required>
+            </div>
+
+            <button type="submit" class="btn-login">Logar</button>
+        </form>
+
+        <div class="forgot-password">
+            <a href="#" id="forgotLink">Não tenho senha / Esqueci a senha</a>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
